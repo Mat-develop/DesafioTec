@@ -1,0 +1,65 @@
+.building-wrap div {
+  height: 150px;
+  width: 600px;
+  background-color: rgb(59, 57, 54);
+  border: solid 1px;
+  position: relative;
+  align-items: center;
+  right: -200px;
+}
+
+.elevator-shaft {
+  height: 150px;
+  width: 200px;
+  background-color: rgb(10, 1, 1);
+  position: absolute;
+  left: 35%;
+}
+.building-wrap h1 {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.building-wrap div button {
+  height: 30px;
+  width: 50px;
+  border-radius: 20px;
+  border: solid 2px;
+  transition: 1s;
+  position: absolute;
+  right: 120px;
+  top: 35%;
+}
+
+.building-wrap div button:active {
+  border: solid 2px red;
+}
+
+.elevator-panel {
+  position: absolute;
+  left: 40px;
+  background-color: rgb(196, 202, 201);
+  height: 400px;
+  width: 200px;
+  border: solid 2px;
+  border-radius: 20px;
+}
+.elevator-panel button {
+  height: 80px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 6px;
+  border-radius: 50px;
+  display: grid;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+
+.elevator-panel h1 {
+  position: absolute;
+  top: -80px;
+  padding-left: 50px;
+}

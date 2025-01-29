@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/desafio1/styleRomanPage.css" />
+    <link rel="stylesheet" href="styleElevatorPage.css" />
+    <title>elevador</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button onclick="location.href='/desafio1/romanHome.html'">
+          Desafio 1
+        </button>
+        <button onclick="location.href='/desafio2/passwordGen.html'">
+          Desafio 2
+        </button>
+        <button onclick="location.href='elevatorHome.html'">
+          - Desafio 3 -
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div class="elevator-panel">
+        <h1>Painel do Elevador</h1>
+        <button id="elevatorBtn" class="panel-btn4">4</button>
+        <button id="elevatorBtn" class="panel-btn3">3</button>
+        <button id="elevatorBtn" class="panel-btn2">2</button>
+        <button id="elevatorBtn" class="panel-btn1">1</button>
+      </div>
+      <h1>- Prédio -</h1>
+      <div class="building-wrap">
+        <div class="building-floor4">
+          <ele class="elevator-shaft"></ele>
+          <h1>4º ANDAR</h1>
+          <button id="elevatorBtn" class="elevator-btn4">🔽</button>
+        </div>
+        <div class="building-floor3">
+          <ele class="elevator-shaft"></ele>
+          <h1>3º ANDAR</h1>
+          <button id="elevatorBtn" class="elevator-btn3">🔽🔼</button>
+        </div>
+        <div class="building-floor2">
+          <ele class="elevator-shaft"></ele>
+          <h1>2º ANDAR</h1>
+          <button id="elevatorBtn" class="elevator-btn2">🔽🔼</button>
+        </div>
+        <div class="building-floor1">
+          <ele class="elevator-shaft"></ele>
+          <h1>1º ANDAR</h1>
+          <button id="elevatorBtn" class="elevator-btn1">🔼</button>
+        </div>
+      </div>
+    </main>
+    <script src="elevator.js"></script>
+  </body>
+</html>

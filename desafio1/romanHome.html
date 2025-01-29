@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleRomanPage.css" />
+    <title>Conversor Romano</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button onclick="location.href='romanHome.html'">- Desafio 1 -</button>
+        <button onclick="location.href='/desafio2/passwordGen.html'">
+          Desafio 2
+        </button>
+        <button onclick="location.href='/desafio3/elevatorHome.html'">
+          Desafio 3
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Conversor de Números Romanos</h1>
+      <div class="input-container">
+        <input class="user-input" placeholder="Digite o número Romano" />
+        <button onclick="convertRoman()">Enviar</button>
+      </div>
+
+      <div class="input-container">
+        <p class="user-output"></p>
+      </div>
+    </main>
+
+    <script src="scriptRoman.js"></script>
+  </body>
+</html>
