@@ -2,11 +2,11 @@
 
 # Como Executar o Projeto
 
--Utilize o Live Server:
+## Utilize o Live Server:
 
 Para visualizar e interagir com o projeto, recomenda-se o uso da extensão Live Server no Visual Studio Code (ou qualquer outra ferramenta que ofereça funcionalidade semelhante).
 
-#Navegação entre Desafios:
+## Navegação entre Desafios:
 
 Na página inicial, você encontrará 3 botões localizados na parte superior.
 
