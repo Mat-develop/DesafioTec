@@ -1,7 +1,16 @@
 # Desafio Tecnico IngaCode
-## Codigo se encontra no master branch
-# Como Rodar
-Utilizar Live server para rodar o código HTML. Existem 3 botões encima da página que levam aos desafios evitando necessidade de ficar abrindo pagina por pagina.
+
+# Como Executar o Projeto
+
+-Utilize o Live Server:
+
+Para visualizar e interagir com o projeto, recomenda-se o uso da extensão Live Server no Visual Studio Code (ou qualquer outra ferramenta que ofereça funcionalidade semelhante).
+
+#Navegação entre Desafios:
+
+Na página inicial, você encontrará 3 botões localizados na parte superior.
+
+Cada botão redireciona para um dos desafios propostos, eliminando a necessidade de abrir manualmente cada arquivo HTML.
 
 ## Sobre
 
